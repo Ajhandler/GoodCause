@@ -85,9 +85,13 @@ form {
   background-color: #3E606F;
   color: #FFF;
   padding: 6px;
+/*.submitButton {
+  background-color: #BAD6EC;
+  padding-bottom: 5px;
+  padding-top: 5px;
+*/
   border-radius: 10px;
   border: 0px; 
-  margin-bottom: 10px;
 }
 
 .submitButton:hover {
@@ -96,10 +100,14 @@ form {
 }
 
 .top {
-  background-color: rgba(100, 100, 100, 0.1);
+  background-color: rgba(100, 100, 100, 1);
   padding-top: 20px;
   padding-bottom: 20px;
 
+
+}
+.top a{
+  color: white;
 }
 
 .bottom {
