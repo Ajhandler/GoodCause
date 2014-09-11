@@ -1,5 +1,57 @@
-footer{
-  display: inline-block;
-  color: grey;
-  width: 20%;
+body {
+  width: 100%;
+  margin: 0 auto;
 }
+
+footer {
+ position: fixed;
+ bottom: 0;
+ width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: grey;
+}
+
+.top {
+  background-color: #BAD6EC;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+
+.bottom {
+  background-color: #DDDDDD;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.home, .about, .donate {
+  display: inline-block;
+  width: 33%;
+  text-align: center;
+}
+
+.home a:hover, 
+.about a:hover,
+.donate a:hover {
+  color: #fff;
+}
+
+.social {
+  text-align: center;
+}
+
+.social a i {
+  width: 5%;
+  background-color: #BAD6EC;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  border-radius: 10px;
+}
+
+.social a i:hover {
+  background-color: #fff;
+}
+
