@@ -1,0 +1,55 @@
+body, html, .pannel{
+	height: 100%;
+	width: 100%;
+	height: 100vh;
+	width: 100vw;
+}
+
+.pannel{
+	background-image: url('../images/bg.JPG');
+	background-repeat: none;
+	background-size: cover;
+	margin: 0 auto;
+}
+.info{
+	padding: 0 35%;
+	position: relative;
+    top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.intro{
+	font-size: 4em;
+	color: white;
+}
+.donationbar{
+	position: fixed;
+	height: 9%;
+	width: 100%;
+	top: 0;
+	z-index: 10;
+	background-color: #3E606F;
+	box-shadow: 0px 3px 0px 0px rgba(50, 50, 50, 0.75);
+
+}
+.donatebtn{
+	text-align: center;
+	margin-top: 17px;
+
+}
+.donatebtn a{
+	transition: all .5s ease;
+	color: #303030;
+}
+.donatebtn a:hover{
+	background-color: #D1DBBD;
+	color: white;
+}
+.btn {
+	border: 2px solid #FCFFF5;
+	padding: 10px;
+	text-decoration: none;
+	box-shadow: 0px 3px 0px 0px rgba(50, 50, 50, 0.75);
+
+}
