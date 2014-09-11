@@ -6,26 +6,19 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 }
-
 .page-wrap {
 	margin-bottom: 0px; 
 	min-height: 100%;	
-
 }
-
 .page-wrap:after {
   content: "";
   display: block;
   width: 80%;
   
 }
-
 footer, .page-wrap:after {
   /* .push must be the same height as footer */
 	height: 97px; 
-}
-footer {
-  
 }
 .info{
 	margin: 0 auto;

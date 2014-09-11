@@ -1,3 +1,16 @@
+/*********************
+
+
+Basic Styles      -     This is any baseline style, pretty much any style on a <tag> so html, h2,some styles that just include colors
+					     and things of this sort.
+
+
+*********************/
+body {
+  width: 100%;
+  margin: 0 auto;
+  color: #000;
+}
 .indexbody, .indexhtml{
 	height: 100%;
 	width: 100%;
@@ -5,37 +18,79 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 }
+a {
+  text-decoration: none;
+  color: #000;
+}
+.h2{
+  padding-top: 10px;
+}
+form {
+  margin-top: 30px;
+}
+img{
+  max-height: 250px;
+  max-width: 250px;
+  border-radius: 50%;
+}
+.tan {
+  background: #EFEFEF;
+}
+
+.tan:after {
+  background: white;
+}
+.images{
+  width: 250px;
+  margin: 0 auto;
+}
+
+
+/*********************
+
+
+Container Styles     -     This is any container style, pretty much any style on a wrap, container, page holder.
+						   This also contains the footer height, as it is connected to the page wrap.
+
+
+*********************/
 
 .page-wrap {
 	margin-bottom: 0px; 
 	min-height: 100%;
 }
-
 .page-wrap:after {
   content: "";
   display: block;
 }
-
+.container {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  background-color: rgba(100, 100, 100, 0.1);
+}
+.mainContent{
+  width: 80%;
+  margin-top: 60px;
+  overflow: auto;
+  background: white;
+}
 footer, .page-wrap:after {
   /* .push must be the same height as footer */
 	height: 97px; 
 }
-footer {
-  
+.footer, .wrap:after {
+  /* .push must be the same height as footer */
+  height: 46px; 
 }
-.info{
-	margin: 0 auto;
-	width: 50%;
-	text-align: center;
-	padding-top: 10%;
-}
-.buttons{
-	margin: 0 auto;
-}
-.intro{
-	font-size: 4em;
-	color: white;
-}
+/*********************
+
+
+Page Styles    -     This is any Style that has to do with pages or their layout and content <p>, floats and things of this nature
+						   
+
+
+*********************/
 .donationbar{
 	position: fixed;
 	height: 9%;
@@ -46,243 +101,16 @@ footer {
 	box-shadow: 0px 3px 0px 0px rgba(50, 50, 50, 0.75);
 
 }
-.donatebtn{
-	text-align: center;
-	margin-top: 17px;
-
-}
-.donatebtn a, .btn{
-	transition: all .5s ease;
-	color: #FCFFF5;
-}
-.donatebtn a:hover, .btn:hover{
-	background-color: #D1DBBD;
+.intro{
+	font-size: 4em;
 	color: white;
 }
-.btn{
-	border: 2px solid #FCFFF5;
-	padding: 10px;
-	text-decoration: none;
-	box-shadow: 0px 3px 0px 0px rgba(50, 50, 50, 1);
+.info{
+	margin: 0 auto;
+	width: 50%;
+	text-align: center;
+	padding-top: 10%;
 }
-
-
------
-
-
-body {
-  width: 100%;
-  margin: 0 auto;
-  color: #000;
-}
-
-a {
-  text-decoration: none;
-  color: #000;
-}
-
-.container {
-  width: 60%;
-  margin: 0 auto;
-  text-align: center;
-  background-color: rgba(100, 100, 100, 0.1);
-}
-
-h2 {
-  padding-top: 10px;
-}
-
-.amounts a {
-  background-color: #3E606F;
-  padding: 8px;
-  margin: 10px;
-  border-radius: 5px;
-  text-align: center;
-  color: #fff;
-}
-
-.amounts a:hover {
-  color: grey;
-  background-color: #FCFFF5;
-}
-
-form {
-  margin-top: 30px;
-}
-
-.firstname,
-.lastname,
-.email {
-  border-radius: 3px;
-  margin-bottom: 5px;
-  margin-right:5px;
-  width: 25%;
-  border-width: 1px;
-  border: none;
-  box-shadow: 0 1px 2px rgba(0,0,0,0.2) inset, 0 -1px 0 rgba(0,0,0,0.05) inset;
-  transition: all 0.2s linear;
-  font-family: "Helvetica Neue", sans-serif;
-  font-size: 13px;
-  color: #222;
-  padding: 5px;
-}
-
-.email {
-  width: 50%;
-}
-
-.annonymous {
-  margin: 10px;
-}
-
-.newsletter {
-  margin: 10px;
-  margin-bottom: 20px;
-}
-
-.commentBox {
-  margin: 20px;
-  width: 50%;
-  border-width: 1px;
-  border: none;
-  box-shadow: 0 1px 2px rgba(0,0,0,0.2) inset, 0 -1px 0 rgba(0,0,0,0.05) inset;
-  transition: all 0.2s linear;
-  font-family: "Helvetica Neue", sans-serif;
-  font-size: 13px;
-  color: #222;
-  padding: 5px;
-}
-
-.submitButton {
-  background-color: #3E606F;
-  color: #FFF;
-  padding-bottom: 5px;
-  padding-top: 5px;
-  border-radius: 10px;
-  border: 0px; 
-
-}
-
-.submitButton:hover {
-  color: grey;
-  background-color: #FCFFF5;
-}
-
-.top {
-  background-color: rgba(100, 100, 100, 1);
-  padding-top: 20px;
-  padding-bottom: 20px;
-
-
-}
-.top a{
-  color: white;
-}
-
-.bottom {
-  background-color: #DDD;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
-.home, .about, .donate {
-  display: inline-block;
-  width: 33%;
-  text-align: center;
-}
-
-.home a:hover, 
-.about a:hover,
-.donate a:hover {
-  color: #fff;
-}
-
-.social {
-  text-align: center;
-}
-
-.social a i {
-  width: 5%;
-  background-color: #3E606F;
-  color: #FFF;
-  padding-bottom: 5px;
-  padding-top: 5px;
-  border-radius: 10px;
-}
-
-.social a i:hover {
-  background-color: #FCFFF5;
-  color: grey;
-}
-
-.page-wrap {
-  margin-bottom: 0px; 
-  min-height: 100%;
-}
-
-.page-wrap:after {
-  content: "";
-  display: block;
-}
-
-.footer, .wrap:after {
-  /* .push must be the same height as footer */
-  height: 46px; 
-}
-
-/* =================
-
-/**{
-  border: solid 1px #000;
-}*/
-body {
-
-}
-.mainContent{
-  width: 80%;
-
-  margin-top: 60px;
-  overflow: auto;
-  background: white;
-}
-
-.leftSide{
-
-  width: 80%;
-margin: 0 auto;
-}
-
-
-.tan {
-  background: #EFEFEF;
-}
-
-.tan:after {
-  background: white;
-}
-
-.rightSide {
-  width: 80%;
-  margin: 0 auto;
-  overflow: auto;
-  clear: both;
-}
-
-.left-content {
-  overflow: auto;
-}
-
-.images{
-  width: 250px;
-  margin: 0 auto;
-}
-
-img{
-  max-height: 250px;
-  max-width: 250px;
-  border-radius: 50%;
-}
-
 .paragraph{
   float: left;
   width: 44%;
@@ -308,19 +136,127 @@ img{
   right: 0;
   top: 0;
 }
+.leftSide{
 
-.subscribe{
-  position: fixed;
-  padding-top: 15%;
-  padding-left: 1.5%;
-  right: 0px;
-  width: 205px;
+  width: 80%;
+margin: 0 auto;
+}
+.rightSide {
+  width: 80%;
+  margin: 0 auto;
+  overflow: auto;
+  clear: both;
 }
 
-#subscribe-text{
+.left-content {
+  overflow: auto;
+}
+/*********************
+
+
+Buttons    -     Any Buttons Styles
+						   
+
+
+*********************/
+
+.buttons{
+	margin: 0 auto;
+}
+.donatebtn{
+	text-align: center;
+	margin-top: 17px;
+
+}
+.donatebtn a, .btn{
+	transition: all .5s ease;
+	color: #FCFFF5;
+}
+.donatebtn a:hover, .btn:hover{
+	background-color: #D1DBBD;
+	color: white;
+}
+.btn{
+	border: 2px solid #FCFFF5;
+	padding: 10px;
+	text-decoration: none;
+	box-shadow: 0px 3px 0px 0px rgba(50, 50, 50, 1);
+}
+.amounts a {
+  background-color: #3E606F;
+  padding: 8px;
+  margin: 10px;
+  border-radius: 5px;
   text-align: center;
+  color: #fff;
 }
 
+.amounts a:hover {
+  color: grey;
+  background-color: #FCFFF5;
+}
+.submitButton {
+  background-color: #3E606F;
+  color: #FFF;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  border-radius: 10px;
+  border: 0px; 
+
+}
+.submitButton:hover {
+  color: grey;
+  background-color: #FCFFF5;
+}
+/*********************
+
+
+Forms   -     Any form styling
+						   
+
+
+*********************/
+form {
+  margin-top: 30px;
+}
+.firstname,
+.lastname,
+.email {
+  border-radius: 3px;
+  margin-bottom: 5px;
+  margin-right:5px;
+  width: 25%;
+  border-width: 1px;
+  border: none;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.2) inset, 0 -1px 0 rgba(0,0,0,0.05) inset;
+  transition: all 0.2s linear;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 13px;
+  color: #222;
+  padding: 5px;
+}
+.email {
+  width: 50%;
+}
+.annonymous {
+  margin: 10px;
+}
+.newsletter {
+  margin: 10px;
+  margin-bottom: 20px;
+}
+.commentBox {
+  margin: 20px;
+  width: 50%;
+  border-width: 1px;
+  border: none;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.2) inset, 0 -1px 0 rgba(0,0,0,0.05) inset;
+  transition: all 0.2s linear;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 13px;
+  color: #222;
+  padding: 5px;
+}
 input[type="email"]{
   width: 80%;
   margin: 0 10%;
@@ -334,8 +270,66 @@ input[type="email"]{
   padding: 5px;
 
 }
-
 input:focus{
   outline: none;
 }
+.subscribe{
+  position: fixed;
+  padding-top: 15%;
+  padding-left: 1.5%;
+  right: 0px;
+  width: 205px;
+}
+
+#subscribe-text{
+  text-align: center;
+}
+/*********************
+
+
+footer   -     Any styling for the footer
+						   
+
+
+*********************/
+.top {
+  background-color: rgba(100, 100, 100, 1);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.top a{
+  color: white;
+}
+.bottom {
+  background-color: #DDD;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.home, .about, .donate {
+  display: inline-block;
+  width: 33%;
+  text-align: center;
+}
+.home a:hover, 
+.about a:hover,
+.donate a:hover {
+  color: #fff;
+}
+.social {
+  text-align: center;
+}
+.social a i {
+  width: 5%;
+  background-color: #3E606F;
+  color: #FFF;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  border-radius: 10px;
+}
+.social a i:hover {
+  background-color: #FCFFF5;
+  color: grey;
+}
+
+
 
