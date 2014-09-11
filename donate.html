@@ -5,12 +5,56 @@
   <title>Donate Water</title>
   <link rel="stylesheet" type="text/css" href="css/donate.css">
   <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+
 </head>
 <body>
   
+  <div class="container">
+    <h2>Give Clean Water</h2>
+    <h4>Your gifts will help us keep the promise of water flowing!</h4>
+    
+
+    <div class="payment">
+      <form class="name">
+        Name: <input type="text" name="firstname" placeholder="first" class="firstname"><input type="text" name="lastname" placeholder="last"class="lastname">
+      </form>
+      <form class="contact">
+        Email: <input type="text" name="email" placeholder="email" class="email">
+      </form>
+    </div>
+
+    <h5>Please select a donation amount:</h5>
+
+    <div class="amounts">
+      <a href="#" target="new">$10</a>
+      <a href="#" target="new">$25</a>
+      <a href="#" target="new">$50</a>
+      <a href="#" target="new">$100</a>
+      <a href="#" target="new">Other</a>
+    </div>
+
+    <div class="checkboxes">
+      <form>
+        <input type="checkbox" name="annonymous" value="annonymous" class="annonymous">I prefer to make my donation annonymously.<br>
+        <input type="checkbox" name="newsletter" value="newsletter" class="newsletter">Please sign me up for the newsletter. 
+      </form>
+    </div>
+
+    <span class="comments">Comments</span><br>
+
+    <textarea name="comment" class="commentBox" placeholder="tell us what you think!"></textarea><br>
+
+    <input type="submit" value="Submit" class="submitButton">  
+
+     
+  </div>
+
+
+  
 
   <footer>
-    
+  <!-- row 1 of footer-->
     <div class="top">
       <div class="home">
         <a href="index.html">Home</a>
@@ -22,7 +66,7 @@
         <a href="donate.html">Donate</a>
       </div>
     </div>
-
+    <!-- row 2 of footer -->
     <div class="bottom">
       <div class="social">
         <span>Connect with us!</span>
@@ -32,14 +76,6 @@
         <a href="https://plus.google.com/+thewaterproject/videos" target="new"><i class="fa fa-google-plus"></i></a>
       </div>
     </div>
-    
-    </ul>
-
-
-
-
-    </div>
-
   </footer>
   
 </body>
