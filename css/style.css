@@ -229,3 +229,113 @@ footer, .page-wrap:after {
   /* .push must be the same height as footer */
   height: 55px; 
 }
+
+/* =================
+
+/**{
+  border: solid 1px #000;
+}*/
+body {
+
+}
+.mainContent{
+  width: 80%;
+
+  margin-top: 60px;
+  overflow: auto;
+  background: white;
+}
+
+.leftSide{
+
+  width: 80%;
+margin: 0 auto;
+}
+
+
+.tan {
+  background: #EFEFEF;
+}
+
+.tan:after {
+  background: white;
+}
+
+.rightSide {
+  width: 80%;
+  margin: 0 auto;
+  overflow: auto;
+  clear: both;
+}
+
+.left-content {
+  overflow: auto;
+}
+
+.images{
+  width: 250px;
+  margin: 0 auto;
+}
+
+img{
+  max-height: 250px;
+  max-width: 250px;
+  border-radius: 50%;
+}
+
+.paragraph{
+  float: left;
+  width: 44%;
+  margin: 3%;
+}
+
+.sectionTitle{
+  text-align: center;
+  color: grey;
+  margin: 50px 0
+}
+
+.text{
+  font-size: 14px;
+}
+
+.sidebar{
+  height: 1860px;
+  width: 20%;
+  background: #EFEFEF;
+  float: left;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.subscribe{
+  position: fixed;
+  padding-top: 15%;
+  padding-left: 1.5%;
+  right: 0px;
+  width: 205px;
+}
+
+#subscribe-text{
+  text-align: center;
+}
+
+input[type="email"]{
+  width: 80%;
+  margin: 0 10%;
+  border-radius: 3px;
+  border: none;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.2) inset, 0 -1px 0 rgba(0,0,0,0.05) inset;
+  transition: all 0.2s linear;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 13px;
+  color: #222222;
+  padding: 5px;
+
+}
+
+input:focus{
+  outline: none;
+}
+

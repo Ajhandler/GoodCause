@@ -9,8 +9,7 @@
 
 .page-wrap {
 	margin-bottom: 0px; 
-	min-height: 100%;
-	background: #EFEFEF;
+	min-height: 100%;	
 
 }
 
@@ -18,7 +17,7 @@
   content: "";
   display: block;
   width: 80%;
-  background: white;
+  
 }
 
 footer, .page-wrap:after {

@@ -18,6 +18,14 @@ body {
 margin: 0 auto;
 }
 
+
+.tan {
+	background: #EFEFEF;
+}
+
+.tan:after {
+	background: white;
+}
 .rightSide {
 	width: 80%;
 margin: 0 auto;
