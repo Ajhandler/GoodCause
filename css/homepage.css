@@ -40,16 +40,15 @@ body, html, .pannel{
 }
 .donatebtn a{
 	transition: all .5s ease;
-	color: #303030;
+	color: #FCFFF5;
 }
 .donatebtn a:hover{
 	background-color: #D1DBBD;
 	color: white;
 }
-.btn {
+.btn{
 	border: 2px solid #FCFFF5;
 	padding: 10px;
 	text-decoration: none;
-	box-shadow: 0px 3px 0px 0px rgba(50, 50, 50, 0.75);
-
+	box-shadow: 0px 3px 0px 0px rgba(50, 50, 50, 1);
 }
