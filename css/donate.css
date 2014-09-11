@@ -57,14 +57,20 @@ form {
 
 .newsletter {
   margin: 10px;
+  margin-bottom: 20px;
+}
+
+.commentBox {
+  margin: 20px;
+  width: 50%;
 }
 
 .submitButton {
   background-color: #BAD6EC;
-  padding-bottom: 5px;
-  padding-top: 5px;
+  padding: 6px;
   border-radius: 10px;
   border: 0px; 
+  margin-bottom: 10px;
 }
 
 .top {
