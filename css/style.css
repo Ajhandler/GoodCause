@@ -65,3 +65,167 @@ footer {
 	text-decoration: none;
 	box-shadow: 0px 3px 0px 0px rgba(50, 50, 50, 1);
 }
+
+
+-----
+
+
+body {
+  width: 100%;
+  margin: 0 auto;
+  color: #000;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.container {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  background-color: rgba(100, 100, 100, 0.1);
+}
+
+h2 {
+  padding-top: 10px;
+}
+
+.amounts a {
+  background-color: #3E606F;
+  padding: 8px;
+  margin: 10px;
+  border-radius: 5px;
+  text-align: center;
+  color: #fff;
+}
+
+.amounts a:hover {
+  color: grey;
+  background-color: #FCFFF5;
+}
+
+form {
+  margin-top: 30px;
+}
+
+.firstname,
+.lastname,
+.email {
+  border-radius: 3px;
+  margin-bottom: 5px;
+  margin-right:5px;
+  width: 25%;
+  border-width: 1px;
+  border: none;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.2) inset, 0 -1px 0 rgba(0,0,0,0.05) inset;
+  transition: all 0.2s linear;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 13px;
+  color: #222;
+  padding: 5px;
+}
+
+.email {
+  width: 50%;
+}
+
+.annonymous {
+  margin: 10px;
+}
+
+.newsletter {
+  margin: 10px;
+  margin-bottom: 20px;
+}
+
+.commentBox {
+  margin: 20px;
+  width: 50%;
+  border-width: 1px;
+  border: none;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.2) inset, 0 -1px 0 rgba(0,0,0,0.05) inset;
+  transition: all 0.2s linear;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 13px;
+  color: #222;
+  padding: 5px;
+}
+
+.submitButton {
+  background-color: #3E606F;
+  color: #FFF;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  border-radius: 10px;
+  border: 0px; 
+
+}
+
+.submitButton:hover {
+  color: grey;
+  background-color: #FCFFF5;
+}
+
+.top {
+  background-color: rgba(100, 100, 100, 1);
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+
+}
+.top a{
+  color: white;
+}
+
+.bottom {
+  background-color: #DDD;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.home, .about, .donate {
+  display: inline-block;
+  width: 33%;
+  text-align: center;
+}
+
+.home a:hover, 
+.about a:hover,
+.donate a:hover {
+  color: #fff;
+}
+
+.social {
+  text-align: center;
+}
+
+.social a i {
+  width: 5%;
+  background-color: #3E606F;
+  color: #FFF;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  border-radius: 10px;
+}
+
+.social a i:hover {
+  background-color: #FCFFF5;
+  color: grey;
+}
+
+.page-wrap {
+  margin-bottom: 0px; 
+  min-height: 100%;
+}
+
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+
+footer, .page-wrap:after {
+  /* .push must be the same height as footer */
+  height: 55px; 
+}

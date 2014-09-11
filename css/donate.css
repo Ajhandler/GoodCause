@@ -84,14 +84,11 @@ form {
 .submitButton {
   background-color: #3E606F;
   color: #FFF;
-  padding: 6px;
-/*.submitButton {
-  background-color: #BAD6EC;
   padding-bottom: 5px;
   padding-top: 5px;
-*/
   border-radius: 10px;
   border: 0px; 
+
 }
 
 .submitButton:hover {
