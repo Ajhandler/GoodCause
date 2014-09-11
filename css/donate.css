@@ -88,7 +88,7 @@ form {
   padding-top: 5px;
   border-radius: 10px;
   border: 0px; 
-
+  margin: 10px;
 }
 
 .submitButton:hover {
@@ -153,8 +153,8 @@ form {
   display: block;
 }
 
-footer, .page-wrap:after {
+.footer, .wrap:after {
   /* .push must be the same height as footer */
-  height: 55px; 
+  height: 46px; 
 }
 
