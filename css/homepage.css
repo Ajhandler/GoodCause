@@ -10,11 +10,15 @@
 .page-wrap {
 	margin-bottom: 0px; 
 	min-height: 100%;
+	background: #EFEFEF;
+
 }
 
 .page-wrap:after {
   content: "";
   display: block;
+  width: 80%;
+  background: white;
 }
 
 footer, .page-wrap:after {

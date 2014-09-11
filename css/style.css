@@ -225,8 +225,8 @@ form {
   display: block;
 }
 
-footer, .page-wrap:after {
+.footer, .wrap:after {
   /* .push must be the same height as footer */
-  height: 55px; 
+  height: 46px; 
 }
 
