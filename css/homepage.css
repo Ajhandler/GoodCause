@@ -1,10 +1,11 @@
-/*body, html{
+
+.indexbody, .indexhtml{
 	height: 100%;
 	width: 100%;
 	background-image: url('../images/bg.JPG');
 	background-size: cover;
 	background-repeat: no-repeat;
-}*/
+}
 
 .page-wrap {
 	margin-bottom: 0px; 
@@ -27,14 +28,14 @@ footer, .page-wrap:after {
 footer {
   
 }
-.pannel{
-	
-	margin: 0 auto;
-}
 .info{
-	width: 900px;
 	margin: 0 auto;
- 
+	width: 50%;
+	text-align: center;
+	padding-top: 10%;
+}
+.buttons{
+	margin: 0 auto;
 }
 .intro{
 	font-size: 4em;

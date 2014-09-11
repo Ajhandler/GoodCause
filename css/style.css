@@ -1,3 +1,75 @@
+.indexbody, .indexhtml{
+	height: 100%;
+	width: 100%;
+	background-image: url('../images/bg.JPG');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.page-wrap {
+	margin-bottom: 0px; 
+	min-height: 100%;
+}
+
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+
+footer, .page-wrap:after {
+  /* .push must be the same height as footer */
+	height: 97px; 
+}
+footer {
+  
+}
+.info{
+	margin: 0 auto;
+	width: 50%;
+	text-align: center;
+	padding-top: 10%;
+}
+.buttons{
+	margin: 0 auto;
+}
+.intro{
+	font-size: 4em;
+	color: white;
+}
+.donationbar{
+	position: fixed;
+	height: 9%;
+	width: 100%;
+	top: 0;
+	z-index: 10;
+	background-color: #3E606F;
+	box-shadow: 0px 3px 0px 0px rgba(50, 50, 50, 0.75);
+
+}
+.donatebtn{
+	text-align: center;
+	margin-top: 17px;
+
+}
+.donatebtn a, .btn{
+	transition: all .5s ease;
+	color: #FCFFF5;
+}
+.donatebtn a:hover, .btn:hover{
+	background-color: #D1DBBD;
+	color: white;
+}
+.btn{
+	border: 2px solid #FCFFF5;
+	padding: 10px;
+	text-decoration: none;
+	box-shadow: 0px 3px 0px 0px rgba(50, 50, 50, 1);
+}
+
+
+-----
+
+
 body {
   width: 100%;
   margin: 0 auto;
@@ -157,4 +229,3 @@ footer, .page-wrap:after {
   /* .push must be the same height as footer */
   height: 55px; 
 }
-
