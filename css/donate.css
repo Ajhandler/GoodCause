@@ -1,12 +1,12 @@
 body {
   width: 100%;
   margin: 0 auto;
-  color: grey;
+  color: #000;
 }
 
 a {
   text-decoration: none;
-  color: grey;
+  color: #000;
 }
 
 .container {
@@ -21,7 +21,7 @@ h2 {
 }
 
 .amounts a {
-  background-color: #BAD6EC;
+  background-color: #3E606F;
   padding: 8px;
   margin: 10px;
   border-radius: 5px;
@@ -29,8 +29,9 @@ h2 {
   color: #fff;
 }
 
-.amounts a:active {
-  color: #DDDDDD;
+.amounts a:hover {
+  color: grey;
+  background-color: #FCFFF5;
 }
 
 form {
@@ -40,11 +41,18 @@ form {
 .firstname,
 .lastname,
 .email {
-  border-radius: 5px;
+  border-radius: 3px;
   margin-bottom: 5px;
   margin-right:5px;
   width: 25%;
   border-width: 1px;
+  border: none;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.2) inset, 0 -1px 0 rgba(0,0,0,0.05) inset;
+  transition: all 0.2s linear;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 13px;
+  color: #222;
+  padding: 5px;
 }
 
 .email {
@@ -63,14 +71,28 @@ form {
 .commentBox {
   margin: 20px;
   width: 50%;
+  border-width: 1px;
+  border: none;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.2) inset, 0 -1px 0 rgba(0,0,0,0.05) inset;
+  transition: all 0.2s linear;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 13px;
+  color: #222;
+  padding: 5px;
 }
 
 .submitButton {
-  background-color: #BAD6EC;
+  background-color: #3E606F;
+  color: #FFF;
   padding: 6px;
   border-radius: 10px;
   border: 0px; 
   margin-bottom: 10px;
+}
+
+.submitButton:hover {
+  color: grey;
+  background-color: #FCFFF5;
 }
 
 .top {
@@ -81,7 +103,7 @@ form {
 }
 
 .bottom {
-  background-color: #DDDDDD;
+  background-color: #DDD;
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -104,13 +126,30 @@ form {
 
 .social a i {
   width: 5%;
-  background-color: #BAD6EC;
+  background-color: #3E606F;
+  color: #FFF;
   padding-bottom: 5px;
   padding-top: 5px;
   border-radius: 10px;
 }
 
 .social a i:hover {
-  background-color: #fff;
+  background-color: #FCFFF5;
+  color: grey;
+}
+
+.page-wrap {
+  margin-bottom: 0px; 
+  min-height: 100%;
+}
+
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+
+footer, .page-wrap:after {
+  /* .push must be the same height as footer */
+  height: 55px; 
 }
 
