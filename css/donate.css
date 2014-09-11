@@ -67,12 +67,6 @@ form {
   border: 0px; 
 }
 
-footer {
- position: absolute;
- bottom: 0;
- width: 100%;
-}
-
 .top {
   background-color: rgba(100, 100, 100, 0.1);
   padding-top: 20px;
