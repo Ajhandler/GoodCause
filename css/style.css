@@ -62,7 +62,9 @@ Container Styles     -     This is any container style, pretty much any style on
 .page-wrap:after {
   content: "";
   display: block;
+  width: 80%;
 }
+
 .container {
   width: 60%;
   margin: 0 auto;
@@ -105,16 +107,18 @@ Page Styles    -     This is any Style that has to do with pages or their layout
 	font-size: 4em;
 	color: white;
 }
+
 .info{
 	margin: 0 auto;
 	width: 50%;
 	text-align: center;
 	padding-top: 10%;
 }
+
 .paragraph{
   float: left;
-  width: 44%;
-  margin: 3%;
+  width: 42%;
+  margin: 4%;
 }
 
 .sectionTitle{
@@ -136,13 +140,17 @@ Page Styles    -     This is any Style that has to do with pages or their layout
   right: 0;
   top: 0;
 }
+
 .leftSide{
 
-  width: 80%;
-margin: 0 auto;
+  width: 100%;
+  margin: 0 auto;
+  overflow: auto;
+  clear: both;
 }
+
 .rightSide {
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
   overflow: auto;
   clear: both;
@@ -249,6 +257,9 @@ form {
   margin: 20px;
   width: 50%;
   border-width: 1px;
+}
+
+.commentBox, input[type="email"]{
   border: none;
   box-shadow: 0 1px 2px rgba(0,0,0,0.2) inset, 0 -1px 0 rgba(0,0,0,0.05) inset;
   transition: all 0.2s linear;
@@ -257,17 +268,11 @@ form {
   color: #222;
   padding: 5px;
 }
+
 input[type="email"]{
   width: 80%;
   margin: 0 10%;
   border-radius: 3px;
-  border: none;
-  box-shadow: 0 1px 2px rgba(0,0,0,0.2) inset, 0 -1px 0 rgba(0,0,0,0.05) inset;
-  transition: all 0.2s linear;
-  font-family: "Helvetica Neue", sans-serif;
-  font-size: 13px;
-  color: #222222;
-  padding: 5px;
 
 }
 input:focus{
@@ -345,104 +350,4 @@ footer   -     Any styling for the footer
   /* .push must be the same height as footer */
   height: 46px; 
 }
-
-/* ========info.css========= */
-
-.mainContent{
-  width: 80%;
-  margin-top: 60px;
-  overflow: auto;
-  background: white;
-}
-
-.leftSide{
-
-  width: 100%;
-  margin: 0 auto;
-  overflow: auto;
-  clear: both;
-}
-
-.tan {
-  background: #EFEFEF;
-}
-
-.tan:after {
-  background: white;
-}
-.rightSide {
-  width: 100%;
-  margin: 0 auto;
-  overflow: auto;
-  clear: both;
-}
-
-.left-content {
-  overflow: auto;
-}
-
-.images{
-  width: 250px;
-  margin: 0 auto;
-}
-
-img{
-  max-height: 250px;
-  max-width: 250px;
-  border-radius: 50%;
-}
-
-.paragraph{
-  float: left;
-  width: 42%;
-  margin: 4%;
-}
-
-.sectionTitle{
-  text-align: center;
-  color: grey;
-  margin: 50px 0
-}
-
-.text{
-  font-size: 14px;
-}
-
-.sidebar{
-  height: 1860px;
-  width: 20%;
-  background: #EFEFEF;
-  float: left;
-  position: absolute;
-  right: 0;
-  top: 0;
-}
-
-.subscribe{
-  position: fixed;
-  padding-top: 15%;
-  padding-right: 1%;
-  right: 0px;
-  width: 205px;
-}
-
-#subscribe-text{
-  text-align: center;
-}
-
-input[type="email"]{
-  width: 80%;
-  margin: 0 10%;
-  border-radius: 3px;
-  border: none;
-  box-shadow: 0 1px 2px rgba(0,0,0,0.2) inset, 0 -1px 0 rgba(0,0,0,0.05) inset;
-  transition: all 0.2s linear;
-  font-family: "Helvetica Neue", sans-serif;
-  font-size: 13px;
-  color: #222222;
-  padding: 5px;
-}
-
-input:focus{
-  outline: none;
 
