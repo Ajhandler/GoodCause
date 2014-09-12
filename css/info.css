@@ -1,12 +1,6 @@
-/**{
-	border: solid 1px #000;
-}*/
-body {
 
-}
 .mainContent{
 	width: 80%;
-
 	margin-top: 60px;
 	overflow: auto;
 	background: white;
@@ -14,8 +8,10 @@ body {
 
 .leftSide{
 
-	width: 80%;
-margin: 0 auto;
+	width: 100%;
+	margin: 0 auto;
+	overflow: auto;
+	clear: both;
 }
 
 
@@ -27,10 +23,10 @@ margin: 0 auto;
 	background: white;
 }
 .rightSide {
-	width: 80%;
-margin: 0 auto;
-overflow: auto;
-clear: both;
+	width: 100%;
+	margin: 0 auto;
+	overflow: auto;
+	clear: both;
 }
 
 .left-content {
@@ -50,8 +46,8 @@ img{
 
 .paragraph{
 	float: left;
-	width: 44%;
-	margin: 3%;
+	width: 42%;
+	margin: 4%;
 }
 
 .sectionTitle{
@@ -77,7 +73,7 @@ img{
 .subscribe{
 	position: fixed;
 	padding-top: 15%;
-	padding-left: 1.5%;
+	padding-right: 1%;
 	right: 0px;
 	width: 205px;
 }
