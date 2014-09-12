@@ -62,6 +62,7 @@ Container Styles     -     This is any container style, pretty much any style on
 .page-wrap:after {
   content: "";
   display: block;
+  width: 80%;
 }
 .container {
   width: 60%;
