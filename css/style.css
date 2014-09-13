@@ -210,6 +210,7 @@ Buttons    -     Any Buttons Styles
   padding-top: 5px;
   border-radius: 10px;
   border: 0px; 
+  margin: 10px;
 
 }
 .submitButton:hover {
@@ -227,9 +228,7 @@ Forms   -     Any form styling
 form {
   margin-top: 30px;
 }
-.firstname,
-.lastname,
-.email {
+.form-item {
   border-radius: 3px;
   margin-bottom: 5px;
   margin-right:5px;
@@ -243,7 +242,7 @@ form {
   color: #222;
   padding: 5px;
 }
-.email {
+.contact .form-item {
   width: 50%;
 }
 .annonymous {
@@ -310,15 +309,13 @@ footer   -     Any styling for the footer
   padding-top: 10px;
   padding-bottom: 10px;
 }
-.home, .about, .donate {
+.footer-item {
   display: inline-block;
   width: 33%;
   text-align: center;
 }
-.home a:hover, 
-.about a:hover,
-.donate a:hover {
-  color: #fff;
+.footer-item a:hover {
+  color: #D1DBBD;
 }
 .social {
   text-align: center;
