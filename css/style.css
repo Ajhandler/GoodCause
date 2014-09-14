@@ -223,7 +223,6 @@ Buttons    -     Any Buttons Styles
 Forms   -     Any form styling
 						   
 
-
 *********************/
 form {
   margin-top: 30px;
@@ -272,11 +271,12 @@ input[type="email"]{
   width: 80%;
   margin: 0 10%;
   border-radius: 3px;
-
 }
+
 input:focus{
   outline: none;
 }
+
 .subscribe{
   position: fixed;
   padding-top: 15%;
@@ -301,25 +301,31 @@ footer   -     Any styling for the footer
   padding-top: 20px;
   padding-bottom: 20px;
 }
+
 .top a{
   color: white;
 }
+
 .bottom {
   background-color: #DDD;
   padding-top: 10px;
   padding-bottom: 10px;
 }
+
 .footer-item {
   display: inline-block;
   width: 33%;
   text-align: center;
 }
+
 .footer-item a:hover {
   color: #D1DBBD;
 }
+
 .social {
   text-align: center;
 }
+
 .social a i {
   width: 5%;
   background-color: #3E606F;
@@ -328,6 +334,7 @@ footer   -     Any styling for the footer
   padding-top: 5px;
   border-radius: 10px;
 }
+
 .social a i:hover {
   background-color: #FCFFF5;
   color: grey;
