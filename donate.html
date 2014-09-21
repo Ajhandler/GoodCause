@@ -6,6 +6,9 @@
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
   <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="js/script.js"></script>
+
 </head>
 
 <body>
@@ -15,24 +18,24 @@
       <h2 class="h2">Give Clean Water</h2>
       <h4>Your gifts will help us keep the promise of water flowing!</h4>
       
-
+<div id="donationInfo">
       <div class="payment">
         <form class="name">
-          Name: <input type="text" name="firstname" placeholder="First" class="form-item"><input type="text" name="lastname" placeholder="Last"class="form-item">
+          Name: <input type="text" name="firstname" placeholder="First" id="first-name" class="form-item"><input type="text" name="lastname" placeholder="Last" id="last-name" class="form-item">
         </form>
         <form class="contact">
-          Email: <input type="text" name="email" placeholder="Email" class="form-item">
+          Email: <input type="text" name="email" placeholder="Email" id="user-email" class="form-item">
         </form>
       </div>
 
       <h5>Please select a donation amount:</h5>
 
       <div class="amounts">
-        <a href="#" target="new">$10</a>
-        <a href="#" target="new">$25</a>
-        <a href="#" target="new">$50</a>
-        <a href="#" target="new">$100</a>
-        <a href="#" target="new">Other</a>
+        <a href="#">$10</a>
+        <a href="#">$25</a>
+        <a href="#">$50</a>
+        <a href="#">$100</a>
+        <a href="#">Other</a>
       </div>
 
       <div class="checkboxes">
@@ -45,6 +48,7 @@
       <textarea name="comment" class="commentBox" placeholder="Tell us what you think!"></textarea><br>
       
       <input type="submit" value="Submit" class="submitButton">  
+</div>
     </div>
   </div>
 
